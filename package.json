@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "homepage": "http://julianbrowne.github.io/versa",
   "description": "Versa is a fork of Word Master (https://octokatherine.github.io/word-master/) which is a version of Wordle (https://www.powerlanguage.co.uk/wordle/). Versa has some changes documented in the readme.",
-  "dependencies": { 
+  "dependencies": {
     "@headlessui/react": "^1.4.2",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
