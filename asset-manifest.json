@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/versa/static/css/main.9aac381a.css",
+    "main.js": "/versa/static/js/main.7c066dc7.js",
+    "static/media/Cross.png": "/versa/static/media/Cross.cbf77228e847522eff11.png",
+    "static/media/Success.png": "/versa/static/media/Success.df533be8f86a57bc5946.png",
+    "static/media/Ranade-Variable.ttf": "/versa/static/media/Ranade-Variable.bb177f94a709e8e8f396.ttf",
+    "index.html": "/versa/index.html",
+    "static/media/Info.svg": "/versa/static/media/Info.ee717ac430bb01bfbbd42aa3dbffe913.svg",
+    "static/media/Close.svg": "/versa/static/media/Close.f34771d5d250820d8c5ec83c816bf8f5.svg",
+    "main.9aac381a.css.map": "/versa/static/css/main.9aac381a.css.map",
+    "main.7c066dc7.js.map": "/versa/static/js/main.7c066dc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9aac381a.css",
+    "static/js/main.7c066dc7.js"
+  ]
+}
