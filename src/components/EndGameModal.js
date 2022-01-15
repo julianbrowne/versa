@@ -3,6 +3,8 @@ import Modal from 'react-modal'
 import Success from '../data/Success.png'
 import Fail from '../data/Cross.png'
 
+import toast, { Toaster } from 'react-hot-toast'
+
 Modal.setAppElement('#root')
 
 export const EndGameModal = ({
@@ -16,7 +18,9 @@ export const EndGameModal = ({
   longestStreak,
   answer,
   playAgain,
-}) => {
+  cellStatuses
+}) => { 
+
   const PlayAgainButton = () => {
     return (
       <div className={darkMode ? 'dark' : ''}>
@@ -30,6 +34,55 @@ export const EndGameModal = ({
       </div>
     )
   }
+
+  const shareScoreToClipboard = () => { 
+
+    const scoreString = cellStatuses.map( 
+      function(i1, idx1) { 
+        return i1.map( 
+          function(i2, idx2) { 
+            switch(i2) { 
+            case 'gray':
+              return '⬜'
+              break;
+            case 'green':
+              return '🟩'
+              break;
+            case 'yellow':
+              return '🟨'
+              break;
+            case 'unguessed':
+              return ' '
+              break;
+            default:
+              return ''
+              break;
+            }
+          }).join("")
+      }).join("\n");
+
+    //console.log(scoreString.toString());
+    navigator.clipboard.writeText("Versa Score\n\n" + scoreString.toString());
+
+    toast.success('Copied score to the clipboard')
+
+
+  }
+
+  const ShareButton = () => {
+    return (
+      <div className={darkMode ? 'dark' : ''}>
+        <button
+          type="button"
+          className="rounded-lg px-6 py-2 mt-8 text-lg nm-flat-background dark:nm-flat-background-dark hover:nm-inset-background dark:hover:nm-inset-background-dark text-primary dark:text-primary-dark"
+          onClick={shareScoreToClipboard}
+        >
+          Share
+        </button>
+      </div>
+    )
+  }
+
   return (
     <Modal
       isOpen={isOpen}
@@ -37,7 +90,7 @@ export const EndGameModal = ({
       style={styles}
       contentLabel="Game End Modal"
     >
-      <div className={darkMode ? 'dark' : ''}>
+        <div className={darkMode ? 'dark' : ''}>
         <div className="h-full flex flex-col items-center justify-center max-w-[300px] mx-auto text-primary dark:text-primary-dark">
             <button
               className="absolute top-4 right-4 rounded-full nm-flat-background dark:nm-flat-background-dark text-primary dark:text-primary-dark p-1 w-6 h-6 sm:p-2 sm:h-8 sm:w-8 hover:nm-inset-background dark:hover:nm-inset-background-dark"
@@ -74,7 +127,9 @@ export const EndGameModal = ({
               </div>
             </>
           )}
+
           <PlayAgainButton />
+          <ShareButton />
         </div>
       </div>
     </Modal>

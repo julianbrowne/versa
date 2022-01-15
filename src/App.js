@@ -4,6 +4,8 @@ import { Keyboard } from './components/Keyboard'
 import answers from './data/answers'
 import words from './data/words'
 
+import toast, { Toaster } from 'react-hot-toast'
+
 import { useLocalStorage } from './hooks/useLocalStorage'
 import { ReactComponent as Info } from './data/Info.svg'
 //import { ReactComponent as Settings } from './data/Settings.svg'
@@ -146,6 +148,7 @@ function App() {
     const word = board[currentRow].join('')
     if (!isValidWord(word)) {
       setSubmittedInvalidWord(true)
+      toast.error('Only dictionary words can be used as guesses, Jag');
       return
     }
 
@@ -323,6 +326,7 @@ function App() {
           darkMode={darkMode}
           styles={modalStyles}
         />
+        <Toaster />
         <EndGameModal
           isOpen={modalIsOpen}
           handleClose={closeModal}
@@ -334,6 +338,7 @@ function App() {
           longestStreak={longestStreak}
           answer={answer}
           playAgain={playAgain}
+          cellStatuses={cellStatuses}
         />
         <SettingsModal
           isOpen={settingsModalIsOpen}
