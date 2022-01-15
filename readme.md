@@ -27,5 +27,5 @@ These are unchanged from Word Master / Wordle
 - Each guess can be any valid word, but not random characters
 - After each guess, the guessed letters will turn grey, green, or orange
 - Green means the letter is correct and in the correct position
-- Yellow means the letter is correct, but in the wrong position
+- Orange means the letter is correct, but in the wrong position
 - Grey means that letter is not anywhere in the answer
