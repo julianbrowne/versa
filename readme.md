@@ -17,6 +17,7 @@ Just go to [Versa](https://julianbrowne.github.io/versa/)
 - but guess words with duplicate letters is allowed
 - the list of possible words (3000) is british english
 - some minor cosmetic changes to the UI
+- has a score share like Wordle
 
 ## Rules
 
