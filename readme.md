@@ -5,9 +5,13 @@ As in vice versa
 
 ## History
 
-This is a fork of `https://octokatherine.github.io/word-master/` which is in turn a copy of [Wordle](https://www.powerlanguage.co.uk/wordle/)
+This is a fork of [Word Master](https://octokatherine.github.io/word-master/) which is in turn a copy of [Wordle](https://www.powerlanguage.co.uk/wordle/)
 
-## Changes
+## Play
+
+Just go to [Versa](https://julianbrowne.github.io/versa/)
+
+## Changes from Word Master
 
 - no answers will be words with duplicate letters
 - but guess words with duplicate letters is allowed
