@@ -6,7 +6,7 @@ import words from './data/words'
 
 import { useLocalStorage } from './hooks/useLocalStorage'
 import { ReactComponent as Info } from './data/Info.svg'
-import { ReactComponent as Settings } from './data/Settings.svg'
+//import { ReactComponent as Settings } from './data/Settings.svg'
 
 import { InfoModal } from './components/InfoModal'
 import { SettingsModal } from './components/SettingsModal'
@@ -289,7 +289,7 @@ function App() {
       <div className={`flex flex-col justify-between h-fill bg-background dark:bg-background-dark`}>
         <header className="flex items-center py-2 px-3 text-primary dark:text-primary-dark">
           <h1 className="flex-1 text-center text-xl xxs:text-2xl sm:text-4xl tracking-wide font-bold">
-            WordPastor
+            Versa
           </h1>
           <button
             type="button"

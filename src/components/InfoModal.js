@@ -1,4 +1,4 @@
-import { ReactComponent as Github } from '../data/Github.svg'
+//import { ReactComponent as Github } from '../data/Github.svg'
 import { ReactComponent as Close } from '../data/Close.svg'
 import Modal from 'react-modal'
 
@@ -49,7 +49,7 @@ export const InfoModal = ({ isOpen, handleClose, darkMode, styles }) => (
           In the beginning was the <a className="info-link" href="https://www.powerlanguage.co.uk/wordle/">Worldle</a> and the Worldle was good. But you could only play it once a day, so <a className="info-link" href="https://github.com/octokatherine">Katherine Peterson</a> said let there be <a className="info-link" href="https://octokatherine.github.io/word-master/">Word Master</a>, which you can play as much as you like.
         </span>
         <span>
-          WordPastor is a clone of Word Master, which means 99% of the code comes from Word Master, and has (or plans to have) the following differences:
+          Versa is a clone of Word Master, which means 99% of the code comes from Word Master, and has the following differences:
         </span>
         <ul className="list-disc pl-5 block sm:text-base text-sm">
           <li className="mt-2 mb-2">There shalt be no words with repeated letters</li>
