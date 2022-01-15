@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/versa/static/css/main.9aac381a.css",
+    "main.css": "/versa/static/css/main.9f8e5a36.css",
     "main.js": "/versa/static/js/main.8215a613.js",
     "static/media/Cross.png": "/versa/static/media/Cross.cbf77228e847522eff11.png",
     "static/media/Success.png": "/versa/static/media/Success.df533be8f86a57bc5946.png",
@@ -8,11 +8,11 @@
     "index.html": "/versa/index.html",
     "static/media/Info.svg": "/versa/static/media/Info.ee717ac430bb01bfbbd42aa3dbffe913.svg",
     "static/media/Close.svg": "/versa/static/media/Close.f34771d5d250820d8c5ec83c816bf8f5.svg",
-    "main.9aac381a.css.map": "/versa/static/css/main.9aac381a.css.map",
+    "main.9f8e5a36.css.map": "/versa/static/css/main.9f8e5a36.css.map",
     "main.8215a613.js.map": "/versa/static/js/main.8215a613.js.map"
   },
   "entrypoints": [
-    "static/css/main.9aac381a.css",
+    "static/css/main.9f8e5a36.css",
     "static/js/main.8215a613.js"
   ]
 }
