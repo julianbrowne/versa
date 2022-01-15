@@ -16,9 +16,9 @@ module.exports = {
           'hsl(231, 16%, 25%)',
           'background-dark': 'hsl(231, 16%, 25%)',
           'primary-dark': 'hsl(231, 16%, 92%)',
-          'yellow-500': '#FFA07A',
-          'n-green': '#8FBC8F',
-          'n-gray': '#2F4F4F',
+          'yellow-500': '#FFA500',
+          'n-green': '#006400',
+          'n-gray': '#4F4F4F',
       },
     },
     neumorphismSize: {
