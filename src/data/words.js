@@ -1,4 +1,5 @@
-const words = {
+const words = { 
+  gamer: true,
   abaca: true,
   aback: true,
   abaft: true,

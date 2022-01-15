@@ -1,4 +1,5 @@
 const answers = [ 
+  "gamer",
   "which",
   "their",
   "would",
