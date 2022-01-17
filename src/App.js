@@ -148,7 +148,7 @@ function App() {
     const word = board[currentRow].join('')
     if (!isValidWord(word)) {
       setSubmittedInvalidWord(true)
-      toast.error('Only dictionary words can be used as guesses, Jag');
+      toast.error('Only dictionary words can be used as guesses');
       return
     }
 
