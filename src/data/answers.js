@@ -1,5 +1,13 @@
 const answers = [ 
   "gamer",
+  "pumas",
+  "dames",
+  "bling",
+  "pater",
+  "pates",
+  "yetis",
+  "basks",
+  "wands",
   "which",
   "their",
   "would",
