@@ -1,4 +1,5 @@
 const words = { 
+  farts: true,
   gamer: true,
   pumas: true,
   dames: true,
