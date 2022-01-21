@@ -1,4 +1,6 @@
 const answers = [ 
+  "futon",
+  "freon",
   "gamer",
   "pumas",
   "dames",
