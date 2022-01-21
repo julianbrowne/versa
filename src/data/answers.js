@@ -2913,7 +2913,6 @@ const answers = [
   "kitty",
   "laird",
   "banjo",
-  "fucks",
   "synod",
   "watts",
   "doted",
