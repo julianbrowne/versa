@@ -64,7 +64,7 @@ export const EndGameModal = ({
     //console.log(scoreString.toString());
     navigator.clipboard.writeText("Versa Score\n\n" + scoreString.toString());
 
-    toast.success('Copied score to the clipboard')
+    toast.success('Copied score to the clipboard');
 
 
   }

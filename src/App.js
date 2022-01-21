@@ -148,7 +148,15 @@ function App() {
     const word = board[currentRow].join('')
     if (!isValidWord(word)) {
       setSubmittedInvalidWord(true)
-      toast.error('Only dictionary words can be used as guesses');
+      toast.error('Only dictionary words can be used as guesses',
+      { 
+        style: {
+          borderRadius: '10px',
+          background: '#3E3E3E',
+          color: '#fff',
+          minWidth: '400px',
+        }
+      });
       return
     }
 
