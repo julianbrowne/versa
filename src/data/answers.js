@@ -1,4 +1,7 @@
 const answers = [ 
+  "recon",
+  "ramen",
+  "nerds",
   "futon",
   "freon",
   "gamer",
